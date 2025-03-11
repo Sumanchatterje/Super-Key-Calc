@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=.container, initial-scale=1.0">
+    <meta name="description" content="Created a calculator which will calculate the total number of super keys.">
+    <title>Calculator - Super Key</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Created a calculator which will calculate the total number of super keys.">
+    <meta name="keywords" content="super key calculator, database, relational schema">
+    <meta name="author" content="Suman Chatterjee, Pratik Giri, Souvik Mondal">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Super Key Calculator">
+    <meta property="og:description" content="Author: Suman Chatterjee | Pratik Giri | Souvik Mondal">
+    <meta property="og:image" content="https://adamasknowledgecity.ac.in/public/themes/landing/images/favicon.png">
+    <meta property="og:type" content="Web-App">
+    <meta property="og:site_name" content="Super Key Calculator">
+
+    <!-- LinkedIn Profile Links -->
+    <meta name="author" content="Suman Chatterjee, Pratik Giri, Souvik Mondal">
+    <link rel="author" href="https://www.linkedin.com/in/suman-chatterjee-7ab471230/">
+    <link rel="author" href="https://www.linkedin.com/in/pratik-giri-745b51291/">
+    <link rel="author" href="https://www.linkedin.com/in/souvik-mondal-8ba82a291/">
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://adamasknowledgecity.ac.in/public/themes/landing/images/favicon.png" type="image/png">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-box calculate">
+        <form id="superKeyForm">
+            <h1>CALCULATOR</h1>
+            <div class="input-box">
+                <input type="number" id="num_attributes" placeholder="Number of Attributes" name="num_attributes" required oninput="generateAttributeInputs()"><br><br>
+                <div id="attribute_inputs">
+
+                </div>
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="num_candidate_keys" placeholder="Number of Candidate Keys" name="num_candidate_keys" required oninput="generateCandidateKeyInputs()"><br><br>
+                <div id="candidate_key_inputs">
+
+                </div>
+            </div>
+
+            <div class="input-box">
+                <input type="number" id="num_fd" placeholder="Number of Functional Dependencies" name="num_fd" required oninput="generateFDInputs()"><br><br>
+                <div id="fd_inputs">
+
+                </div>
+            </div>
+
+            <button type="button" class="btn" onclick="handleSubmit()">Submit</button>
+            <button style="margin-top: 2%" type="button" class="btn" onclick="clearFields()">Clear</button>
+        </form>
+    </div>
+    <div class="form-box result">
+        <h1>COMBINATIONS OF SUPER KEYS</h1>
+        <div style="margin-top: 5%" id="output"></div>
+    </div>
+    <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+            <h1>Hello, Welcome!</h1>
+            <p>I'm just a calculator—plug in your candidate keys and I'll do the math, but the brainwork's still on you!</p>
+        </div>
+        <div class="toggle-panel toggle-right">
+            <h1>Awesome job</h1>
+            <p>Sticking with it! I'm glad we cracked it together</p>
+            <button class="btn login-btn">Check Another</button>
+        </div>
+    </div>
+</div>
+
+<!-- Link to external JS file -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
