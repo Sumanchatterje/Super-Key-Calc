@@ -73,7 +73,7 @@ function handleSubmit() {
 
     $.ajax({
         type: "POST",
-        url: "http://localhost:8080/api/superkeys", // Update the backend URL
+        url: "https://super-key-spring-boot.onrender.com", // Update the backend URL
         contentType: "application/json", // Set correct content type
         data: JSON.stringify(payload), // Send as JSON string
         success: function(response) {
