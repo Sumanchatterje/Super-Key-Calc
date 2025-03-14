@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY target/Super_Keys-0.0.1-SNAPSHOT.jar app.jar
+COPY target/Super_Keys-SNAPSHOT.jar app.jar
 
 # Expose the application port (Render automatically assigns one)
 EXPOSE 8080
