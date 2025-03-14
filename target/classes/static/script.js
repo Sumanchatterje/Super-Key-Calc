@@ -158,4 +158,4 @@ function restrictInput() {
 // Attach the restriction function to both input fields
 document.getElementById("num_candidate_keys").addEventListener("input", restrictInput);
 document.getElementById("num_fd").addEventListener("input", restrictInput);
-
+//ok
