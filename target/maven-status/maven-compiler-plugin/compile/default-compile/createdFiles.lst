@@ -1,5 +1,0 @@
-com\example\super_keys\SuperKeysApplication.class
-com\example\super_keys\model\SuperKeyRequest.class
-com\example\super_keys\model\FunctionalDependency.class
-com\example\super_keys\service\SuperKeysService.class
-com\example\super_keys\controller\SuperKeysController.class
