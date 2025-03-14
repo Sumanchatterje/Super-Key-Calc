@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="bbd22b60-5b37-43ae-9dff-0d25cc722027" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.super_keys.SuperKeysApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.super_keys.SuperKeysApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.super_keys.SuperKeysApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.super_keys.SuperKeysApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +58,7 @@
     "JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (2).executor": "Run",
     "JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar.executor": "Run",
     "JAR Application.Super_Keys-SNAPSHOT.jar.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
@@ -67,13 +75,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JAR Application.Super_Keys-SNAPSHOT.jar">
-    <configuration name="SuperKeysApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SuperKeysApplication" />
-      <module name="Super_Keys" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Super_Keys-0.0.1-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/Super_Keys-0.0.1-SNAPSHOT.jar" />
       <method v="2" />
@@ -88,6 +89,9 @@
     </configuration>
     <configuration name="Super_Keys-SNAPSHOT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/backend/Super_Keys/static/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -115,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JAR Application.Super_Keys-SNAPSHOT.jar" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (2)" />
         <item itemvalue="JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (1)" />
         <item itemvalue="JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar" />
-        <item itemvalue="Application.SuperKeysApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +147,7 @@
       <workItem from="1741635593971" duration="63000" />
       <workItem from="1741678585609" duration="1308000" />
       <workItem from="1741928773886" duration="11000" />
-      <workItem from="1741928847220" duration="4208000" />
+      <workItem from="1741928847220" duration="5745000" />
     </task>
     <servers />
   </component>
