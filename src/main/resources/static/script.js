@@ -73,7 +73,7 @@ function handleSubmit() {
 
     $.ajax({
         type: "POST",
-        url: "https://super-key-spring-boot.onrender.com", // Update the backend URL
+        url: window.location.origin + "/api/superkeys", // Dynamic backend URL
         contentType: "application/json", // Set correct content type
         data: JSON.stringify(payload), // Send as JSON string
         success: function(response) {
@@ -92,6 +92,7 @@ function handleSubmit() {
             console.error("Error:", xhr.responseText);
         }
     });
+
 
     const num_attributes = document.getElementById("num_attributes").value.trim();
     const num_candidate_keys = document.getElementById("num_candidate_keys").value.trim();
