@@ -45,6 +45,7 @@
     --pg-grad-2:var(--pg-grad-2-light);
     --calc:var(--calc-light);
     --res:var(--res-light);
+    transition: all 0.4s ease-in-out;
 }
 
 /* Apply Dark Mode */
@@ -60,6 +61,7 @@
     --pg-grad-2:var(--pg-grad-2-dark);
     --calc:var(--calc-dark);
     --res:var(--res-dark);
+    transition: all 0.4s ease-in-out;
 }
 
 body {
@@ -96,7 +98,8 @@ body {
     text-align: center;
     padding: 40px;
     z-index: 1;
-    transition: .6s ease-in-out 1.2s, visibility 0s 1s;
+    /*transition: .6s ease-in-out 1.2s, visibility 0s 1s;*/
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out, visibility 0s;
     overflow-y: auto; /* Enable vertical scrolling */
     scroll-behavior: smooth; /* Ensures smooth scrolling */
 }
@@ -359,7 +362,7 @@ form{
     border-radius: 50%;
     font-size: 20px;
     cursor: pointer;
-    transition: background 0.6s, transform 0.6s;
+    transition: background 0.3s, transform 0.3s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -374,3 +377,20 @@ form{
 .input-box input {
     margin-bottom: 5px; /* Space between input fields */
 }
+/*:root {*/
+/*    --form-transition: 1.5s ease-in-out;*/
+/*    --theme-transition: 1.5s ease-in-out;*/
+/*}*/
+
+/*!* Apply theme transition to all elements *!*/
+/** {*/
+/*    transition: var(--theme-transition);*/
+/*}*/
+
+/*!* Submission Transition *!*/
+/*.toggle-box::before,*/
+/*.toggle-panel,*/
+/*.container.active .toggle-panel,*/
+/*.form-box {*/
+/*    transition: var(--form-transition);*/
+/*}*/

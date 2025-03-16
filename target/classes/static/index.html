@@ -37,21 +37,21 @@
         <form id="superKeyForm">
             <h1>CALCULATOR</h1>
             <div class="input-box">
-                <input type="number" id="num_attributes" placeholder="Number of Attributes" name="num_attributes" required oninput="generateAttributeInputs()"><br><br>
+                <input type="number"  id="num_attributes" min="0" placeholder="Number of Attributes" name="num_attributes" required oninput="generateAttributeInputs()"><br><br>
                 <div id="attribute_inputs">
 
                 </div>
             </div>
 
             <div class="input-box">
-                <input type="number" id="num_candidate_keys" placeholder="Number of Candidate Keys" name="num_candidate_keys" required oninput="generateCandidateKeyInputs()"><br><br>
+                <input type="number" id="num_candidate_keys" min="0" placeholder="Number of Candidate Keys" name="num_candidate_keys" required oninput="generateCandidateKeyInputs()"><br><br>
                 <div id="candidate_key_inputs">
 
                 </div>
             </div>
 
             <div class="input-box">
-                <input type="number" id="num_fd" placeholder="Number of Functional Dependencies" name="num_fd" required oninput="generateFDInputs()"><br><br>
+                <input type="number" id="num_fd" min="0" placeholder="Number of Functional Dependencies" name="num_fd" required oninput="generateFDInputs()"><br><br>
                 <div id="fd_inputs">
 
                 </div>
