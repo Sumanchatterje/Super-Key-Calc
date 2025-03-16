@@ -45,7 +45,7 @@
     --pg-grad-2:var(--pg-grad-2-light);
     --calc:var(--calc-light);
     --res:var(--res-light);
-    transition: all 0.4s ease-in-out;
+    transition: all 1.8s ease-in-out;
 }
 
 /* Apply Dark Mode */
@@ -61,7 +61,7 @@
     --pg-grad-2:var(--pg-grad-2-dark);
     --calc:var(--calc-dark);
     --res:var(--res-dark);
-    transition: all 0.4s ease-in-out;
+    transition: all 1.8s ease-in-out;
 }
 
 body {
@@ -377,20 +377,17 @@ form{
 .input-box input {
     margin-bottom: 5px; /* Space between input fields */
 }
-/*:root {*/
-/*    --form-transition: 1.5s ease-in-out;*/
-/*    --theme-transition: 1.5s ease-in-out;*/
-/*}*/
 
-/*!* Apply theme transition to all elements *!*/
-/** {*/
-/*    transition: var(--theme-transition);*/
-/*}*/
+body,
+.container,
+.form-box,
+h1,
+p,
+input,
+.btn{
+    transition: background-color 1.8s ease-in-out,
+    color 1.8s ease-in-out,
+    border-color 1.8s ease-in-out,
+    box-shadow 1.8s ease-in-out;
+}
 
-/*!* Submission Transition *!*/
-/*.toggle-box::before,*/
-/*.toggle-panel,*/
-/*.container.active .toggle-panel,*/
-/*.form-box {*/
-/*    transition: var(--form-transition);*/
-/*}*/
