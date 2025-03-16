@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd22b60-5b37-43ae-9dff-0d25cc722027" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/super_keys/SuperKeysApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/super_keys/controller/SuperKeysController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/super_keys/model/FunctionalDependency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/super_keys/model/SuperKeyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/super_keys/service/SuperKeysService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.super_keys.SuperKeysApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.super_keys.SuperKeysApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/super_keys/SuperKeysApplicationTests.class" beforeDir="false" />
-    </list>
+    <list default="true" id="bbd22b60-5b37-43ae-9dff-0d25cc722027" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,47 +40,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SuperKeyApplication.executor": "Run",
-    "Application.SuperKeysApplication.executor": "Run",
-    "JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (1).executor": "Run",
-    "JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (2).executor": "Run",
-    "JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar.executor": "Run",
-    "JAR Application.Super_Keys-SNAPSHOT.jar.executor": "Run",
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Suman/Documents/backend/src/main/resources/static",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SuperKeyApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuperKeysApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (2).executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Super_Keys-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Suman/Documents/backend/src/main/resources/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Suman\Documents\backend\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR Application.Super_Keys-SNAPSHOT.jar">
-    <configuration name="Super_Keys-0.0.1-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/Super_Keys-0.0.1-SNAPSHOT.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Super_Keys-0.0.1-SNAPSHOT.jar (2)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Super_Keys-0.0.1-SNAPSHOT.jar" />
+  <component name="RunManager" selected="JAR Application.Super_Keys-SNAPSHOT.jar (1)">
+    <configuration name="Super_Keys-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
     <configuration name="Super_Keys-SNAPSHOT.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/backend/Super_Keys/target/classes/static/index.html" useBuiltInWebServerPort="true">
@@ -138,11 +109,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.Super_Keys-SNAPSHOT.jar (1)" />
         <item itemvalue="JAR Application.Super_Keys-SNAPSHOT.jar" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (2)" />
-        <item itemvalue="JAR Application.Super_Keys-0.0.1-SNAPSHOT.jar (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +141,7 @@
       <workItem from="1741938320419" duration="794000" />
       <workItem from="1741945106257" duration="97000" />
       <workItem from="1741945402849" duration="516000" />
-      <workItem from="1742108663676" duration="3018000" />
+      <workItem from="1742108663676" duration="3092000" />
     </task>
     <servers />
   </component>
