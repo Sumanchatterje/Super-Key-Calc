@@ -74,15 +74,20 @@ function handleSubmit() {
     $.ajax({
         type: "POST",
         url: window.location.origin + "/api/superkeys", // Dynamic backend URL
+        //url: "http://127.0.0.1:8080/api/superkeys", // NOT-Dynamic backend URL
         contentType: "application/json", // Set correct content type
         data: JSON.stringify(payload), // Send as JSON string
         success: function(response) {
             console.log("Response from Backend:", response);
             $("#output").html(""); // Clear previous output
 
+            // Display each super key first
             response.forEach((superkey, index) => {
                 $("#output").append(`<p><strong>${index + 1}:</strong> { ${superkey.join(", ")} }</p>`);
             });
+
+            // Add total super keys count at the end
+            $("#output").append(`<p><strong>Total Super Keys: ${response.length}</strong></p>`);
 
             setTimeout(() => {
                 container.classList.add('active');
@@ -92,7 +97,6 @@ function handleSubmit() {
             console.error("Error:", xhr.responseText);
         }
     });
-
 
     const num_attributes = document.getElementById("num_attributes").value.trim();
     const num_candidate_keys = document.getElementById("num_candidate_keys").value.trim();
@@ -107,7 +111,6 @@ function handleSubmit() {
 loginBtn.addEventListener('click', () => {
     container.classList.remove('active');
 });
-
 
 
 function generateFDInputs() {
@@ -159,3 +162,29 @@ function restrictInput() {
 document.getElementById("num_candidate_keys").addEventListener("input", restrictInput);
 document.getElementById("num_fd").addEventListener("input", restrictInput);
 //ok
+function toggleTheme() {
+    const body = document.body;
+    const button = document.getElementById("theme-toggle");
+    const isDark = body.getAttribute("data-theme") === "dark";
+
+    // Toggle theme
+    const newTheme = isDark ? "light" : "dark";
+    body.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+
+    // Change button icon
+    button.textContent = isDark ? "🌙" : "☀️";
+
+    // Force repaint for smoother transition
+    body.classList.add("theme-transition");
+    setTimeout(() => body.classList.remove("theme-transition"), 500);
+}
+
+// Initialize theme on page load
+function initTheme() {
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.body.setAttribute("data-theme", savedTheme);
+    document.getElementById("theme-toggle").textContent = savedTheme === "dark" ? "☀️" : "🌙";
+}
+
+document.addEventListener("DOMContentLoaded", initTheme);
