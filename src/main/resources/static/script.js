@@ -73,8 +73,8 @@ function handleSubmit() {
 
     $.ajax({
         type: "POST",
-        //url: window.location.origin + "/api/superkeys", // Dynamic backend URL
-        url: "http://127.0.0.1:8080/api/superkeys", // NOT-Dynamic backend URL
+        url: window.location.origin + "/api/superkeys", // Dynamic backend URL
+       // url: "http://127.0.0.1:8080/api/superkeys", // NOT-Dynamic backend URL
         contentType: "application/json", // Set correct content type
         data: JSON.stringify(payload), // Send as JSON string
         success: function(response) {
