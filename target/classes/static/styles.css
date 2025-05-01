@@ -31,7 +31,7 @@
     --calc-dark:#ffffff;
     --res-dark:#eee;
 }
-
+/*/
 /* Apply Light Mode */
 [data-theme="light"] {
     --form-bg: var(--form-bg-light);
