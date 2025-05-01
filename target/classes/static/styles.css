@@ -209,7 +209,7 @@ form{
     position: absolute;
     width: 50%;
     height: 100%;
-    /* background: seagreen; */
+    /*background: seagreen;*/
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -224,6 +224,7 @@ form{
 }
 .toggle-panel.toggle-left h1{
     font-weight: 700;
+    padding-top: 20px;
 }
 .toggle-panel.toggle-right h1{
     font-weight: 700;
