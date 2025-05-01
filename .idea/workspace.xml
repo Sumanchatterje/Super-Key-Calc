@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd22b60-5b37-43ae-9dff-0d25cc722027" name="Changes" comment="" />
+    <list default="true" id="bbd22b60-5b37-43ae-9dff-0d25cc722027" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Super_Keys-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.super_keys.SuperKeysApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.super_keys.SuperKeysApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.example.super_keys.SuperKeysApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.super_keys.SuperKeysApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +80,7 @@
       <recent name="C:\Users\Suman\Documents\backend\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JAR Application.Super_Keys-SNAPSHOT.jar (1)">
     <configuration name="Super_Keys-SNAPSHOT.jar (1)" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/Super_Keys-SNAPSHOT.jar" />
       <method v="2" />
@@ -110,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JAR Application.Super_Keys-SNAPSHOT.jar (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JAR Application.Super_Keys-SNAPSHOT.jar" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
@@ -145,6 +154,9 @@
       <workItem from="1742108663676" duration="3092000" />
       <workItem from="1742120412421" duration="862000" />
       <workItem from="1742121749391" duration="3781000" />
+      <workItem from="1742126377904" duration="53000" />
+      <workItem from="1742825945859" duration="25000" />
+      <workItem from="1746132046547" duration="1168000" />
     </task>
     <servers />
   </component>
