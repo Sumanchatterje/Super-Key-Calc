@@ -3,20 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto Light", sans-serif;
 }
 :root {
     /* Light Mode */
     --form-bg-light: #fff;
-    --tggl-clr-light: #00246B;
-    --btn-light: #00246B;
-    --btn-hover-light: #214c95;
+    --tggl-clr-light: #5727ea;
+    --btn-light:#5727ea;
+    --btn-hover-light: #7c56ef;
     --input-boxes-light: #eee;
     --input-box-wrt-light: #888;
     --input-box-wrt-in-light: #333;
     --pg-grad-1-light:#e2e2e2;
-    --pg-grad-2-light:#c9d6ff;
-    --calc-light:#00246B;
+    --pg-grad-2-light: #7575ae;
+    --calc-light:#5727ea;
     --res-light: #000000;
     /* Dark Mode */
     --form-bg-dark: #424242;

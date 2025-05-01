@@ -125,17 +125,18 @@ function generateFDInputs() {
         let leftInput = document.createElement("input");
         leftInput.type = "text";
         leftInput.classList.add("fd-input");
-        leftInput.placeholder = "LHS"; // Left-hand side (determinant)
+        leftInput.placeholder = "(comma-seperated if multivalued)"; // Left-hand side (determinant)
         leftInput.required = true;
 
         let arrow = document.createElement("span");
         arrow.classList.add("fd-arrow");
-        arrow.innerHTML = "&#8658;"; // Unicode for right arrow (⇒)
+        //arrow.innerHTML = "&#8658;"; // Unicode for right arrow (⇒)
+        arrow.innerHTML = "➡️";
 
         let rightInput = document.createElement("input");
         rightInput.type = "text";
         rightInput.classList.add("fd-input");
-        rightInput.placeholder = "RHS"; // Right-hand side (dependent attributes)
+        rightInput.placeholder = "(comma-seperated if multivalued)"; // Right-hand side (dependent attributes)
         rightInput.required = true;
 
         fdWrapper.appendChild(leftInput);
@@ -173,7 +174,7 @@ function toggleTheme() {
     localStorage.setItem("theme", newTheme);
 
     // Change button icon
-    button.textContent = isDark ? "🌙" : "☀️";
+    button.textContent = isDark ? "🌜" : "🌞";
 
     // Force repaint for smoother transition
     body.classList.add("theme-transition");
@@ -184,7 +185,7 @@ function toggleTheme() {
 function initTheme() {
     const savedTheme = localStorage.getItem("theme") || "light";
     document.body.setAttribute("data-theme", savedTheme);
-    document.getElementById("theme-toggle").textContent = savedTheme === "dark" ? "☀️" : "🌙";
+    document.getElementById("theme-toggle").textContent = savedTheme === "dark" ? "🌞" : "🌜";
 }
 
 document.addEventListener("DOMContentLoaded", initTheme);
